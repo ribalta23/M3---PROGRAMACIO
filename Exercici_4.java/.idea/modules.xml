@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Exercici_4.java.iml" filepath="$PROJECT_DIR$/.idea/Exercici_4.java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Repte1/Repte1.iml" filepath="$PROJECT_DIR$/Repte1/Repte1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Repte2/Repte2.iml" filepath="$PROJECT_DIR$/Repte2/Repte2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Repte3/Repte3.iml" filepath="$PROJECT_DIR$/Repte3/Repte3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Repte4/Repte4.iml" filepath="$PROJECT_DIR$/Repte4/Repte4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Repte6/Repte6.iml" filepath="$PROJECT_DIR$/Repte6/Repte6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Repte7/Repte7.iml" filepath="$PROJECT_DIR$/Repte7/Repte7.iml" />
+    </modules>
+  </component>
+</project>

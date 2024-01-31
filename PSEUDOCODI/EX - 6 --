@@ -1,0 +1,32 @@
+PROGRAMA
+
+    ENTORN
+
+    ALGORITME
+
+        FUNCIÓ
+            
+            ENTORN:
+                
+                N = NÚMERICA SENCERA
+                S = NÚMERICA SENCERA
+                R = NÚMERICA SENCERA
+                C = NÚMERICA SENCERA
+
+            INICI
+                R = 0
+                C = 1
+                PER C DE 1 FINS 25
+                    Llegeix(N)
+                    S = S + N
+                FI PER
+
+                R = S / 25
+                Escriu(R)
+            RETORNA
+    
+        FI FUNCIO
+
+FI PROGRAMA 
+
+        

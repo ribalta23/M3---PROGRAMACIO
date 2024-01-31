@@ -1,0 +1,39 @@
+PROGRAMA
+
+    ENTORN
+
+    ALGORITME
+
+        FUNCIÓ
+            
+            ENTORN:
+                
+                R = NÚMERICA SENCERA
+                C = NÚMERICA SENCERA
+                S = NÚMERICA SENCERA
+
+            INICI
+                
+                R = N MOD 3
+                C = 1
+                PER C DE 1 FINS 100
+                    N = NÚMERICA SENCERA
+                    Escriu(Un numero:)
+                    Llegeix(N)
+                    SI (R = 0)
+                        S++
+                    FI SI
+                FI PER
+                SI (S > 0)
+                    Escriure(Hi han multiples de 3)
+                SI NO
+                    Escriure(No hi han multiples de 3)
+                FI SI
+
+            RETORNA
+    
+        FI FUNCIO
+
+FI PROGRAMA 
+
+        

@@ -1,0 +1,28 @@
+PROGRAMA
+
+    ENTORN
+
+    ALGORITME
+
+        FUNCIÓ
+            
+            ENTORN:
+                
+               N1 = NUMERICA REAL
+               N2 = NUMERICA REAL
+               N3 = NUMERICA REAL
+               R = NUMERICA REAL
+            INICI
+                Llegir(N1, N2, N3)
+                SI(N1 < 0)
+                    R = N1 * N2 * N3
+                SINO
+                    R = N1 + N2 + N3
+                FI SI
+                Escriure(R)
+            RETORNA
+    
+        FI FUNCIO
+
+FI PROGRAMA
+

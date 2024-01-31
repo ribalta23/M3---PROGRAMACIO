@@ -1,0 +1,28 @@
+PROGRAMA
+
+    ENTORN
+
+    ALGORITME
+
+        FUNCIÓ
+            
+            ENTORN:
+                
+                C = NUMERICA SENCERA
+                ESTALVIS = NUMERICA REAL
+                I
+                
+            INICI
+                PER C DE 1 FINS 25
+                    ESTALVIS = ESTALVIS + 600
+                    I = ESTALVIS * 0.05
+                    ESTALVIS = ESTALVIS + I
+                FI PER
+                Escriure(El noi retirara ESTALVIS)
+            RETORNA
+    
+        FI FUNCIO
+
+FI PROGRAMA
+
+        

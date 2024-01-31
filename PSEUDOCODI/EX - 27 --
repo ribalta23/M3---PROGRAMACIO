@@ -1,0 +1,23 @@
+PROGRAMA
+
+    ENTORN
+
+    ALGORITME
+
+        FUNCIÓ
+            
+            ENTORN:
+                E = NUMERICA SENCERA
+                D = NUMERICA SENCERA
+                L = NUMERICA SENCERA
+            INICI
+                Llegir(N)
+                D = N * 1,05
+                L = N * 0,87
+                Escriure(D , L)
+            RETORNA
+    
+        FI FUNCIO
+
+FI PROGRAMA
+
