@@ -1,0 +1,26 @@
+PROGRAMA
+
+    ENTORN
+
+    ALGORITME
+
+        FUNCIÓ
+            
+            ENTORN:
+
+               N = NUMERICA SENCERA
+
+            INICI
+                N = 1
+                PER N DE 1 FINS 49
+                    SI(N MOD 3 <> 0)
+                        Escriure(N)
+                    FI SI
+                FI PER
+                
+            RETORNA
+
+        FI FUNCIO
+
+FI PROGRAMA
+

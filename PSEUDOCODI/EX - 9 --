@@ -1,0 +1,29 @@
+PROGRAMA
+
+    ENTORN
+
+    ALGORITME
+
+        FUNCIÓ
+            
+            ENTORN:
+
+                N1 = VARIABLE NUMERICA SENCERA
+                
+            INICI
+                
+                Llegeix (n1);
+
+                PER n1 FINS A 24
+
+                    Executa (CAMPANADA);
+
+                FI PER
+
+            RETORNA
+    
+        FI FUNCIO
+
+FI PROGRAMA 
+
+        

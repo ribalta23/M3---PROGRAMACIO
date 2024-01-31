@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Arrays1/Arrays1.iml" filepath="$PROJECT_DIR$/Arrays1/Arrays1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays2/Arrays2.iml" filepath="$PROJECT_DIR$/Arrays2/Arrays2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays3/Arrays3.iml" filepath="$PROJECT_DIR$/Arrays3/Arrays3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays4/Arrays4.iml" filepath="$PROJECT_DIR$/Arrays4/Arrays4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Arrays5/Arrays5.iml" filepath="$PROJECT_DIR$/Arrays5/Arrays5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Exercici_3.java.iml" filepath="$PROJECT_DIR$/.idea/Exercici_3.java.iml" />
+    </modules>
+  </component>
+</project>

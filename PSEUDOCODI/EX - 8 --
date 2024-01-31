@@ -1,0 +1,31 @@
+PROGRAMA
+
+    ENTORN
+
+    ALGORITME
+
+        FUNCIÓ
+            
+            ENTORN:
+                
+                N1 = NÚMERICA SENCERA
+                N2 = NÚMERICA SENCERA
+                C = NÚMERICA SENCERA
+                R = NÚMERICA SENCERA
+            INICI
+                C = 1
+                R = 0
+                Llegeix(N1, N2)
+                PER C DE 1 FINS N2
+                    R = R + N1
+                FI PER
+               Escriu(R)
+
+            RETORNA
+    
+        FI FUNCIO
+
+FI PROGRAMA
+
+
+        

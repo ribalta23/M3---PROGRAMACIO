@@ -1,0 +1,32 @@
+PROGRAMA
+
+    ENTORN
+
+    ALGORITME
+
+        FUNCIÓ
+            
+            ENTORN:
+
+                N = NUMERICA SENCERA
+                F = NUMERICA SENCERA
+                C = NUMERICA SENCERA
+            INICI
+                Llegir(N)
+                C = 1
+                SI(N < 0 O N >= 30)
+                    Escriure(No es correcte)
+                SINO
+                    F = 1
+                    Per C de 1 fins No
+                        F = F * C 
+                    FI PER
+                    Escriure(El factorial de N es F)
+            RETORNA
+    
+        FI FUNCIO
+
+FI PROGRAMA
+
+
+        
