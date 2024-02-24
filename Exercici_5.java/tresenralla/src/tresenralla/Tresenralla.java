@@ -8,6 +8,9 @@ public class Tresenralla {
     private static char jugador = 'X';
 
     public static void main(String[] args) {
+        System.out.println("|-----------------------------------------------------------------------|");
+        System.out.println("| Benvingut al 3 en ralla, el joc funciona per coordenades, del 0 al 2. |");
+        System.out.println("|-----------------------------------------------------------------------|");
         iniciar();
         mostrar();
         Scanner sc = new Scanner(System.in);
