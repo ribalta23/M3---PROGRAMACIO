@@ -20,6 +20,7 @@ public class Monedes1 {
             int monedaBitllet = monedesBitllets[i];
             int quantitat = diferencia / monedaBitllet;
             if (quantitat > 0) {
+                
                 System.out.println(quantitat + " " + (monedaBitllet >= 5 ? "bitllets" : "monedes") + " de " + monedaBitllet + "euros");
                 diferencia = diferencia % monedaBitllet;
             }
