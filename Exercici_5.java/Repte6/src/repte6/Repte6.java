@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Repte6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int[] array = {2, 4, 6, 2, 8, 10, 2, 12, 14, 2}; // Array d'exemple
+        int[] array = {2, 4, 6, 2, 8, 10, 2, 12, 14, 2};
         
         System.out.print("Introdueix un numero enter: ");
         int numero = scanner.nextInt();

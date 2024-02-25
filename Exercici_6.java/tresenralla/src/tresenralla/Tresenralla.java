@@ -6,7 +6,8 @@ public class Tresenralla {
     
     private static char[][] tablero = new char[3][3];
     private static char jugador = 'X';
-
+    public static final String RED = "\u001B[31m";
+    public static final String CYAN = "\u001B[36m";
     public static void main(String[] args) {
         System.out.println("|-----------------------------------------------------------------------|");
         System.out.println("| Benvingut al 3 en ralla, el joc funciona per coordenades, del 0 al 2. |");
@@ -49,15 +50,22 @@ public class Tresenralla {
     }
 
     private static void mostrar() {
-        System.out.println("-------------");
-        for (int i = 0; i < 3; i++) {
-            System.out.print("| ");
-            for (int j = 0; j < 3; j++) {
+    System.out.println("-------------");
+    for (int i = 0; i < 3; i++) {
+        System.out.print("| ");
+        for (int j = 0; j < 3; j++) {
+            if (tablero[i][j] == 'X') {
+                System.out.print(RED + tablero[i][j] + "\u001B[0m | ");
+            } else if (tablero[i][j] == 'O') {
+                System.out.print(CYAN + tablero[i][j] + "\u001B[0m | ");
+            } else {
                 System.out.print(tablero[i][j] + " | ");
             }
-            System.out.println("\n-------------");
         }
+        System.out.println("\n-------------");
     }
+}
+
 
     private static boolean movimentValid(int fila, int columna) {
         return fila >= 0 && fila < 3 && columna >= 0 && columna < 3 && tablero[fila][columna] == '-';

@@ -5,7 +5,6 @@ public class Monedes1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("Benvingut al desglossador de monedes i bitllets!");
         System.out.print("Introdueix l'import de la venda: ");
         int importVenda = scanner.nextInt();
         System.out.print("Introdueix l'import pagat pel comprador: ");

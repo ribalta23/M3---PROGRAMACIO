@@ -10,7 +10,7 @@ public class Repte5 {
             notesParcials[i] = scanner.nextDouble();
         }
         double notaFinal = calcularNotaFinal(notesParcials);
-        System.out.println("La nota final és: " + notaFinal);
+        System.out.println("La nota final es: " + notaFinal);
         
         scanner.close();
     }

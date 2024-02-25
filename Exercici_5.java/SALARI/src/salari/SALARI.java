@@ -5,7 +5,6 @@ public class SALARI {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
-        System.out.println("Benvingut al càlculador de salaris dels treballadors!");
         System.out.println("Per calcular el salari net, introdueix les hores treballades i el torn (M, T, N).");
         System.out.println("Quan hagis acabat, introdueix 0 hores per sortir.");
         
@@ -40,11 +39,11 @@ public class SALARI {
         double descompte = 0.0;
         
         if (salariBrut < 1200) {
-            descompte = salariBrut * 0.008; // 0.8%
+            descompte = salariBrut * 0.008;
         } else if (salariBrut >= 1200 && salariBrut <= 2000) {
-            descompte = salariBrut * 0.1; // 10%
+            descompte = salariBrut * 0.1;
         } else {
-            descompte = salariBrut * 0.12; // 12%
+            descompte = salariBrut * 0.12;
         }
         
         return salariBrut - descompte;
