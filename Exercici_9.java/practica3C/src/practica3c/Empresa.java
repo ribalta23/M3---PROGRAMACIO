@@ -1,15 +1,15 @@
 package practica3c;
 public class Empresa {
     private String nom;
-    private String adreca;
+    private String adreça;
     private String telefon;
 
     public String getNom() {
         return nom;
     }
 
-    public String getAdreca() {
-        return adreca;
+    public String getAdreça() {
+        return adreça;
     }
 
     public String getTelefon() {
@@ -19,8 +19,8 @@ public class Empresa {
         this.nom = nom;
     }
 
-    public void setAdreca(String adreca) {
-        this.adreca = adreca;
+    public void setAdreca(String adreça) {
+        this.adreça = adreça;
     }
 
     public void setTelefon(String telefon) {

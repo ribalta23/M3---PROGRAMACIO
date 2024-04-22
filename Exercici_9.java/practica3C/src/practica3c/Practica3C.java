@@ -59,7 +59,7 @@ public class Practica3C {
     public static void mostrarDadesEmpreses(Empresa[] empreses){
         for(int i = 0; i < 10; i++){
             String nom = empreses[i].getNom();
-            String adreça = empreses[i].getAdreca();
+            String adreça = empreses[i].getAdreça();
             String telefon = empreses[i].getTelefon();
             
             System.out.println("Dades empresa "+(i + 1)+": ");
@@ -72,7 +72,7 @@ public class Practica3C {
         System.out.print("Quina empresa vols veure (0 - 9): ");
         int empresaNum = lec.nextInt();
         String nom = empreses[empresaNum].getNom();
-        String adreça = empreses[empresaNum].getAdreca();
+        String adreça = empreses[empresaNum].getAdreça();
         String telefon = empreses[empresaNum].getTelefon();
 
         System.out.println("Dades empresa "+(empresaNum)+": ");
